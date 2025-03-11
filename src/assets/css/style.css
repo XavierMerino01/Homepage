@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+header {
+  min-height: 400px;
+  position: relative; /* Add this */
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+  background-image: url("./icons/ashley-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 300px; /* Or whatever width you want */
+  height: 200px; /* Or whatever height you want */
+}
+
+.hero-card{
+    background-color: white;
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.inclined {
+  min-height: 800px;
+  background-color: lightblue;
+  box-shadow: 0 2px 4px grey;
+  transform: scale(1.2) rotate(-10deg) translateY(-500px);
+  position: absolute; /* Add this */
+  top: 0;           /* Add this */
+  left: 0;          /* Add this */
+  width: 100%;       /* Add this */
+  z-index: -1;      /* Add this */
+}
